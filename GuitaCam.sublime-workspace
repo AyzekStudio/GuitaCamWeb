@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "w3layouts-License.txt",
+			"settings":
+			{
+				"buffer_size": 1954,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"pcio",
+				"Package Control: Install Package"
+			],
+			[
+				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"lint",
+				"JSLint"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pci ",
+				"Package Control: Install Package"
+			],
+			[
+				"pcin",
+				"Package Control: Install Package"
+			],
+			[
+				"ori des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"ori rig",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/josmora/Documents/Repositorios/GuitaCamWeb"
+	],
+	"file_history":
+	[
+		"/C/Users/josmora/.m2/settings.xml",
+		"/C/tomcat7/conf/tomcat-users.xml",
+		"/C/tomcat6/logs/PVA.log",
+		"/C/tomcat6/logs/Hrpas2.log",
+		"/C/oracle/product/10.2.0/client_1/network/ADMIN/tnsnames.ora",
+		"/C/Users/josmora/Documents/Repositorios/Matrimonios-En-Victoria/target/surefire-reports/com.mev.web.test.service.CantonBOTest.txt",
+		"/C/Users/josmora/Documents/Repositorios/Matrimonios-En-Victoria/target/surefire-reports/com.mev.web.test.model.BasicTest.txt",
+		"/C/Users/josmora/Documents/Repositorios/Matrimonios-En-Victoria/target/surefire-reports/com.mev.web.test.unitest.MiembroBOTest.txt",
+		"/C/Users/josmora/Documents/Repositorios/Matrimonios-En-Victoria/target/surefire-reports/TEST-com.mev.web.test.unitest.MiembroBOTest.xml",
+		"/C/Users/josmora/Documents/Repositorios/Matrimonios-En-Victoria/.gitignore",
+		"/C/tomcat6/logs/localhost.2018-10-29.log",
+		"/C/tomcat6/logs/catalina.2018-10-29.log",
+		"/C/tomcat6/logs/localhost.2018-10-25.log",
+		"/C/tomcat6/logs/catalina.2018-10-25.log",
+		"/C/Users/josmora/Documents/Vicor/Projects/PAS Rewrite/PKG_CREATE_APPRAISSAL_BODY.sql",
+		"/C/tomcat6/logs/catalina.2018-10-24.log",
+		"/C/tomcat6/logs/host-manager.2018-10-24.log",
+		"/C/tomcat6/logs/localhost.2018-10-23.log",
+		"/C/tomcat6/logs/catalina.2018-10-23.log",
+		"/C/tomcat6/logs/localhost.2018-10-16.log",
+		"/C/tomcat6/logs/catalina.2018-10-16.log",
+		"/C/tomcat6/logs/localhost.2018-10-12.log",
+		"/C/tomcat6/logs/catalina.2018-10-12.log",
+		"/C/tomcat6/logs/catalina.2018-10-11.log",
+		"/C/tomcat6/logs/localhost.2018-10-11.log",
+		"/C/tomcat6/logs/Hrpas.log",
+		"/C/tomcat6/logs/MarketingForecast.log",
+		"/AutowiredAnnotationBeanPostProcessor.java",
+		"/C/Users/josmora/Google Drive/Ayzek Studio/Impuestos/Llaves/tutoriales.txt",
+		"/C/Users/josmora/Desktop/Hrpas.log",
+		"/C/tomcat6/logs/catalina.2018-09-28.log",
+		"/C/tomcat6/logs/localhost.2018-09-28.log",
+		"/C/tomcat6/logs/localhost.2018-09-26.log",
+		"/C/tomcat6/logs/catalina.2018-09-26.log",
+		"/C/Users/josmora/Documents/Vicor/Projects/PAS Rewrite/Approvals queries.sql",
+		"/EmailServiceImpl.java",
+		"/C/tomcat6/logs/localhost.2018-09-25.log",
+		"/C/tomcat6/logs/catalina.2018-09-25.log",
+		"/C/tomcat6/logs/MarketingForecast_Daily.log",
+		"/C/tomcat6/logs/localhost.2018-09-24.log",
+		"/C/tomcat6/logs/catalina.2018-09-24.log",
+		"/C/tomcat6/logs/catalina.2018-09-21.log",
+		"/C/tomcat6/logs/localhost.2018-09-21.log",
+		"/C/tomcat6/logs/catalina.2018-09-19.log",
+		"/C/tomcat6/logs/localhost.2018-09-19.log",
+		"/Thread.java",
+		"/C/tomcat6/logs/catalina.2018-09-14.log",
+		"/C/tomcat6/logs/localhost.2018-09-18.log",
+		"/C/tomcat6/logs/localhost.2018-09-14.log",
+		"/C/tomcat6/logs/localhost.2018-09-12.log",
+		"/C/tomcat6/logs/localhost.2018-09-11.log",
+		"/C/tomcat6/logs/catalina.2018-09-06.log",
+		"/C/tomcat6/logs/localhost.2018-09-06.log",
+		"/C/tomcat6/logs/catalina.2018-08-28.log",
+		"/C/tomcat6/logs/localhost.2018-08-28.log",
+		"/C/SQR/sqr.log",
+		"/C/Users/josmora/Downloads/FX_EK7000_171122_FXV2PSD/FX_EK7000_171122FXV2PSD/How to flash.txt",
+		"/C/Users/josmora/AppData/Local/Temp/7zO4D53CA7C/How to flash.txt",
+		"/C/tomcat6/logs/localhost.2018-07-12.log",
+		"/C/tomcat6/logs/catalina.2018-07-12.log",
+		"/C/tomcat6/logs/localhost.2018-08-08.log",
+		"/C/tomcat6/logs/HrpasDaily.log",
+		"//bisprod3/logs/MarketingForecast.log",
+		"/C/Users/josmora/AppData/Local/Aztec Patchbay Editor Pro 4.6/Error File",
+		"/C/tomcat6/logs/localhost.2018-05-30.log",
+		"/C/Users/josmora/Documents/Vicor/Projects/Marketing forecast/FORECAST.PKG_MARKET",
+		"/C/Users/josmora/Documents/Vicor/Projects/Marketing forecast/vmktgfcst.sqr",
+		"/C/tomcat6/logs/catalina.2018-05-30.log",
+		"//bistri3/logs/MarketingForecast.log",
+		"//bisprod1/logs/DOC_MGMT.log",
+		"//bistri1/logs/MarketingForecast.log",
+		"//bistri1/logs/appsrv.log",
+		"/C/tomcat6/logs/PTO.log",
+		"/C/tomcat6/logs/cas.log",
+		"//webtri1/tomcat_8080_logs/cas.log",
+		"/C/Projects/P#3941-MarketingForecast/web/js/dataTables.editor.min.js",
+		"/C/Users/josmora/Downloads/getMarketingGroupingList.json",
+		"/C/tomcat6/conf/server.xml",
+		"/C/tomcat6/logs/DOC_MGMT.log",
+		"//bisprod1/logs/DOC_MGMTDaily.log",
+		"//bisprod1/logs/DOC_MGMTDaily.log.2018-01-31",
+		"/C/Users/josmora/Documents/Vicor/Projects/DOC MGMT/test2.txt",
+		"/C/Users/josmora/Documents/Vicor/Projects/DOC MGMT/test1.txt",
+		"/C/tomcat6/logs/DOC_MGMTDaily.log",
+		"/C/tomcat6/logs/catalina.2018-05-07.log",
+		"//bistri3/logs/DOC_MGMT_WEB.log",
+		"/C/Users/josmora/Documents/Vicor/Projects/Project#4390 Upgrade iSSO to newer version of CAS/web.xml_old",
+		"//bistri3/logs/DOC_MGMT_WEBDaily.log",
+		"/C/tomcat6/logs/localhost.2018-05-03.log",
+		"/C/tomcat6/logs/catalina.2018-05-03.log",
+		"/C/Users/josmora/Documents/Vicor/Projects/Project#4390 Upgrade iSSO to newer version of CAS/web.xml",
+		"/C/tomcat6/logs/PTODaily.log",
+		"/C/tomcat6/logs/localhost.2018-05-02.log",
+		"/C/tomcat6/logs/catalina.2018-05-02.log",
+		"/C/Users/josmora/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/QJW3WJ6P/DOC_MGMTDaily.log",
+		"/C/tomcat6/logs/perfStats.log",
+		"/C/tomcat6/logs/catalina.2018-04-24.log",
+		"/C/tomcat6/logs/localhost.2018-04-24.log",
+		"/C/Projects/CommonSource/jars/cas/tnsnames.ora",
+		"/C/Users/josmora/Desktop/tnsnames.ora",
+		"/C/tomcat6/logs/catalina.2018-04-23.log",
+		"/C/tomcat6/logs/localhost.2018-04-23.log",
+		"/C/tomcat6/logs/productDataWS.log",
+		"/C/tomcat6/logs/productDataWSDaily.log",
+		"/C/apache-maven-3.5.3/README.md",
+		"/C/apache-maven-3.5.3/bin/mvn",
+		"//bisprod1/logs/PTO.log",
+		"//bisprod3/logs/PTO.log",
+		"//bistri1/logs/PTO.log",
+		"//bistri3/logs/PTO.log",
+		"/C/Users/josmora/Documents/Repositorios/RefugioAnimal/nbproject/licenseheader.txt",
+		"/C/Users/josmora/Google Drive/U/Ulacit/2018-1c/Lenguaje de Consulta de Base de Datos/Proyecto final/hataikon-sinac/README.md",
+		"/C/Users/josmora/Google Drive/U/Ulacit/2018-1c/Lenguaje de Consulta de Base de Datos/Proyecto final/hataikon-sinac/.gitignore",
+		"//bistri1/logs/catalina.out",
+		"/C/tomcat6/logs/catalina.2018-04-13.log",
+		"/C/tomcat6/logs/localhost.2018-04-13.log",
+		"/C/Users/josmora/Documents/Repositorios/SpringPlayground/SpringMVC_JSP/README.md",
+		"/C/Users/josmora/Documents/Repositorios/SpringPlayground/Spring3HelloWorldExample/README.md",
+		"/C/Users/josmora/Documents/Repositorios/SpringPlayground/spring3-mvc-maven-annotation-hello-world/README.md",
+		"/C/oracle/product/10.2.0/client_1/network/ADMIN/sqlnet.ora",
+		"/C/Users/josmora/Documents/Vicor/TSNAMES_ORA/tnsnames.ora",
+		"//webprod1/tomcat_logs/catalina.2018-04-04.log",
+		"//webprod1/tomcat_logs/localhost.2018-04-04.log",
+		"//webprod1/tomcat_logs/catalina.2018-04-03.log",
+		"/C/tomcat6/logs/manager.2018-04-09.log",
+		"/C/tomcat6/logs/catalina.2018-04-09.log",
+		"/C/tomcat6/logs/localhost.2018-04-09.log",
+		"/C/Users/josmora/Documents/Vicor/TSNAMES_ORA/tnsnames_04092018.ora"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Error opening create appraisal window",
+			"formList",
+			"Parameters",
+			"formList",
+			"ObjectivesSearchCriteria",
+			"criteria",
+			"Error opening create appraisal",
+			"create appraisal form",
+			"appraisalCount",
+			"Error opening create appraisal window",
+			"Creating form",
+			"Creating form\t",
+			"Creating form",
+			"Creating form\t",
+			"Creating form",
+			"Form created",
+			"email recipient found",
+			"email",
+			"notify",
+			"notifyApprovedReview",
+			"notifyRolledBackReview",
+			"2017",
+			"backlog assigned",
+			"ADVANTEST Europe GmbH",
+			"Super Computer",
+			"Consecutivo",
+			"Could not find consecutive",
+			"getNewForecastSummaryConsecutive",
+			"results",
+			"months",
+			"Response Object",
+			"(Done)",
+			"error",
+			"linus",
+			"getNewForecastSummaryConsecutive",
+			"deleteForecastSummary",
+			"delete",
+			"getNewForecastSummaryConsecutive",
+			"deleteForecastSummary",
+			"delete",
+			"getNewForecastSummaryConsecutive",
+			"webdbtst",
+			"webdb",
+			"18",
+			"1856",
+			"18.56",
+			"2020",
+			"CHIP VTM",
+			"POPULATE_HISTORY_FLINE",
+			"populate",
+			"error",
+			"start getForecast",
+			"start getForecast.",
+			"start getForecast",
+			"request",
+			"reviewStatus",
+			"job",
+			"backlog for",
+			"CHIP VTM",
+			"backlog = ",
+			"backlog",
+			"backlog:",
+			"backlog",
+			"forecastSummaryObj",
+			"invItemId",
+			"Json",
+			"newForecastSummary",
+			"start insertNewForecastSummary",
+			"cannot insert NULL into (\"FORECAST\".\"MARKETING_SUMMARY\".\"INV_ITEM_ID\")",
+			"successfully deserialized json object",
+			"linus",
+			"username",
+			"getMarketingGroupingUpdate",
+			"getMarketingGrouping",
+			"Review ID param",
+			"Showing ",
+			"Showing multiple/default review page",
+			"Review ID param",
+			"Showing",
+			"Error in getMyCalendar",
+			"prd3-400",
+			"vmecsiii_dvl",
+			"02",
+			"Sending Notification to employee",
+			"START getEmployeeInformation",
+			"Environmental variable being replaced",
+			"ERROR com.vicr.",
+			"error",
+			"2018",
+			"ERROR",
+			"pt",
+			"pto",
+			"ProcessId",
+			"vProcessId",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "w3layouts-License.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.loghighlight":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "",
+	"project": "GuitaCam.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 697.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
