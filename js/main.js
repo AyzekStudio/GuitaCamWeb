@@ -91,3 +91,7 @@ jQuery(document).ready(function($){
 		}
 	}
 });
+
+function actualizarProfesor(profesor){
+	console.log(profesor);
+}
