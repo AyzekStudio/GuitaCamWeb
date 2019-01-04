@@ -31,13 +31,6 @@ jQuery(document).ready(function($){
 		closeNav();
 	});
 
-	
-	
-	
-
-
-	
-
 	//submenu items - go back link
 	$('.go-back').on('click', function(){
 		$(this).parent('ul').addClass('is-hidden').parent('.has-children').parent('ul').removeClass('moves-out');
