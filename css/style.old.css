@@ -128,7 +128,7 @@ label {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #00AEEF;
+    color: #e00231;
     text-shadow: 1px 1px #000;
     background-color: transparent;
 }
@@ -141,7 +141,7 @@ label {
 }
 
 a.active.scroll {
-    color: #00AEEF !important;
+    color: #e00231 !important;
     text-shadow: 1px 1px #000;
 }
 
@@ -156,8 +156,8 @@ a.active.scroll {
 
 .navbar-brand {
     float: left;
-    height: 106px;
-    padding: 16px 16px;
+    height: 50px;
+    padding: 15px 15px;
     line-height: 45px;
 }
 
@@ -373,7 +373,7 @@ ul.nav.navbar-nav li a.active::before {
     white-space: nowrap;
     color: transparent;
     z-index: 3;
-    background: #00AEEF;
+    background: #e00231;
 }
 
 .cd-search-trigger::before,
@@ -711,18 +711,18 @@ h3.white-title {
 }
 
 .bold-title {
-    font-size: 5em;
+    font-size: 6em;
     color: #fff;
     font-weight: 700;
     line-height: 68px;
     padding-top: 1em;
-    background: url(../images/gold.png)no-repeat 3px 43px;
+    background: url(../images/gold.png)no-repeat 3px 61px;
     background-size: 59px;
     padding-left: 59px;
 }
 
 .white-img {
-    background: url(../images/divteam.jpg)no-repeat center;
+    background: url(../images/team.jpg)no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -ms-background-size: cover;
