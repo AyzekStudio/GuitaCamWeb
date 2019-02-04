@@ -68,7 +68,7 @@ label {
 /*--header end here--*/
 
 .banner {
-    background: url(../images/bann1.jpg)no-repeat center;
+    background: url(../images/banner.jpg)no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -156,7 +156,7 @@ a.active.scroll {
 
 .navbar-brand {
     float: left;
-    height: 106px;
+    height: 93px;
     padding: 16px 16px;
     line-height: 45px;
 }
@@ -521,7 +521,7 @@ ul.nav.navbar-nav li a.active::before {
     background: rgba(0, 0, 0, 0.75);
     width: 100%;
     padding: 0 5%;
-    -webkit-box-shadow: inset 0 3px 0 #e00231, 0 3px 6px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: inset 0 3px 0 00AEEF, 0 3px 6px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: inset 0 3px 0 #f5b120, 0 3px 6px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.84), 0 3px 6px rgba(0, 0, 0, 0.05);
     -webkit-appearance: none;
@@ -639,7 +639,7 @@ ul.nav.navbar-nav li a.active::before {
 }
 
 .modal-content h5 {
-    color: #e00231;
+    color: 00AEEF;
     padding: 15px 0 7px;
     font-size: 22px;
 }
@@ -743,7 +743,7 @@ h3.white-title {
 }
 
 h3.subheading-music1-musicbx {
-    color: #e00231;
+    color: #00AEEF;
     font-size: 23px;
     letter-spacing: 1px;
     margin-bottom: 0.5em;
@@ -801,15 +801,15 @@ h3.subheading-music1-musicbx {
 }
 
 .ab1 {
-    background: #ff9847;
+    background: #8DC63F;
 }
 
 .ab2 {
-    background: #ff7aa7;
+    background: #00AEEF;
 }
 
 .ab3 {
-    background: #5fcdff;
+    background: #8DC63F;
 }
 
 .view .mask,
@@ -1065,7 +1065,7 @@ li.nbs-flexisel-item img {
     font-size: 15px;
     letter-spacing: 2px;
     padding: 0.6em 2em;
-    background: #e00231;
+    background: 00AEEF;
     color: #fff;
     margin-top: 1.2em;
 }
@@ -1134,7 +1134,7 @@ li.nbs-flexisel-item img {
     color: #000000;
     font-size: 18px;
     padding: 12px 0;
-    border-top: 2px solid #e00231;
+    border-top: 2px solid 00AEEF;
 }
 
 .services-music1-musicbx img {
@@ -1188,7 +1188,7 @@ li.nbs-flexisel-item img {
 }
 
 .thumbnail.events-entertainmbox h4 a:hover {
-    color: #e00231;
+    color: 00AEEF;
 }
 
 .caption p {
@@ -1205,7 +1205,7 @@ li.nbs-flexisel-item img {
 
 .caption p span {
     display: inline-block;
-    color: #e00231;
+    color: 00AEEF;
     margin-right: 7px;
 }
 
@@ -1428,7 +1428,7 @@ li.nbs-flexisel-item img {
 
 .team-info:before {
     background-color: rgba(0, 0, 0, 0.66);
-    border: 3px solid #e00231;
+    border: 3px solid 00AEEF;
     bottom: 0;
     content: "";
     display: inline-block;
@@ -1468,7 +1468,7 @@ li.nbs-flexisel-item img {
 }
 
 .wpf-demo-4 {
-    background-color: #e00231;
+    background-color: 00AEEF;
     display: block;
     overflow: hidden;
     position: relative;
@@ -1717,7 +1717,7 @@ li.nbs-flexisel-item img {
 }
 
 .carousel-inner h5 {
-    color: #e00231;
+    color: 00AEEF;
     font-size: 1.3em;
     letter-spacing: 1px;
     margin-top: 0.6em;
@@ -1752,6 +1752,7 @@ li.nbs-flexisel-item img {
 
 .mboxinfo_mail_grid_right input[type="text"],
 .mboxinfo_mail_grid_right input[type="email"],
+.mboxinfo_mail_grid_right select,
 .mboxinfo_mail_grid_right textarea {
     outline: none;
     padding: 10px;
@@ -1778,7 +1779,7 @@ li.nbs-flexisel-item img {
     padding: 13px 0;
     font-size: 12px;
     color: #fff;
-    background: #e00231;
+    background: #00AEEF;
     width: 49%;
     border: none;
     letter-spacing: 2px;
@@ -1802,7 +1803,7 @@ li.nbs-flexisel-item img {
 }
 
 .mboxinfo_mail_grid_right input[type="reset"]:hover {
-    background: #e00231;
+    background: 00AEEF;
     color: #fff;
 }
 
@@ -1841,7 +1842,7 @@ li.nbs-flexisel-item img {
 }
 
 .contact-left-mbox-sectn h4 {
-    color: #e00231;
+    color: #fff;
     font-size: 1.2em;
     margin-bottom: .5em;
     text-shadow: 1px 1px 2px #000;
@@ -1929,7 +1930,7 @@ textarea:-ms-input-placeholder {
 }
 
 .copy p a {
-    color: #e00231;
+    color: 00AEEF;
     text-decoration: none;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
