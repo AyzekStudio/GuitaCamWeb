@@ -1,13 +1,32 @@
 {
 	"profesores":[
 		{
+			"cod":"P1",
+			"nombre":"Lidia Rodríguez Gómez",
+			"especialidad": "Canto",
+			"resumen":"Profesora con énfasis en canto Lírico y Popular. Ganadora del concurso Recital de Honor en la UCR, 2015 con amplia experiencia al impartir clases para todas las edades, con amplios estudios a nivel universitario y experiencia internacional.",
+			"bio_pro":"Estoy a pocos meses de graduarme de la carrera Música con énfasis en canto de la Universidad de Costa Rica. El canto me ha llevado a conocer distintos países como Nicaragua (donde canté el Réquiem de Mozart), México (donde participé del Festival de ópera San Luis Potosí) así como festivales en Noruega, Londres e Italia. A nivel nacional fui ganadora del concurso Recital de Honor en la UCR, 2015 y he cantado en diferentes funciones y elencos de la ópera La Cámbiale di Matrimonio.",
+			"bio_per":"Me encanta todo lo relacionado con la música, viajar, crecer profesionalmente, el baile, el teatro y el compartir con mis amigos.",
+			"metodologia":"Busco que cada persona conozca y valore el potencial de su voz que es única y trabajamos fuerte para llevar su proceso vocal a mayores niveles de dificultad y expresividad."
+		},
+		{
+			"cod":"P2",
+			"nombre":"Luciano Solís Campos",
+			"especialidad": "Canto",
+			"resumen":"Tenor, especialista en la enseñanza del canto lírico y popular con años de experiencia en la enseñanza de la música para todas las edades. Dedicado profesor en el que los detalles hacen la diferencia.",
+			"bio_pro":"Tenor, estudiante de la Universidad de Costa Rica, Solista para eventos, productor artístico y , en Ad Lumen y Lyric sesions, participación en el Taller de perfeccionamiento Lírico de la Compañía Lírica Nacional con la Maestro Guadalupe González, participación musical en diferentes agrupaciones profesionales como coros y cuartetos. Participación teatral con el grupo Uriche en el Centro Cultural de San Pablo, Heredia. Cantante invitado en la Gala Lírica 2016 de Avenida Acústica y el Hospital Cima en el teatro Eugene O’Neill, con cuarteto de cuerdas y pianista bajo la dirección del Maestro Juan Manuel Arana. Coordinador y apoyo logístico en el Concurso Centroamericano de Canto Lírico, participación en la producción de la Asociación Grupo Lírico de Panamá en la Opera Cavalleria Rusticana de Pietro Mascagni, bajo la dirección del Maestro Jose Luis Cajar en el 2017, clases con maestros nacionales e internacionales. Clases en del Concurso Centroamericano de Canto Lírico con el Maestro Massimo Petzzutti, y participación en el recital final de gala en La Casona de la Opera de Luigi Sansonetti. Escenas del Musical Catalán Mar i cel, en una exhibición en el museo de Jade 2018.",
+			"bio_per":"",
+			"metodologia":""
+		},
+				{
 			"cod":"",
 			"nombre":"",
 			"resumen":"",
 			"bio_pro":"",
 			"bio_per":"",
 			"metodologia":""
-		}],
+		},
+	],
 	"musica":[
 		{ 
 			"cod":"",
