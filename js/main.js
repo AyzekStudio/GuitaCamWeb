@@ -1,3 +1,4 @@
+var guitacam_data = "";
 jQuery(document).ready(function($){
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MqL = 1170;
@@ -90,8 +91,22 @@ jQuery(document).ready(function($){
 			navigation.insertAfter('.cd-main-content');
 		}
 	}
+
+	guitacam_data = JSON.parse(guitacam_data);
+	console.log(guitacam_data); 
 });
 
-function actualizarProfesor(profesor){
-	console.log(profesor);
+function actualizarProfesor(codProfesor){
+	var profesor = jsObjects.filter(obj => {
+	  return obj.cod === codProfesor
+	})
+	console.log(codProfesor, profesor);
+	var nomProfesor = $("#nombreProfesor");
+	nomProfesor.html = profesor.nombre;
+	var resumenProfesor = $("#resumen");
+	resumenProfesor.html = profesor.resumen;
+	var bioProfesor = $("#bioProfesional");
+	bioProfesor.html = profesor.bio_pro; 
+	var fotoProfesor = $("#fotoProfesor");
+	fotoProfesor.attr("src", "images/" + profesor.photo);
 }
