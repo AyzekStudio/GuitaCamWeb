@@ -1,0 +1,32 @@
+{
+	"profesores":[
+		{
+			"cod":"",
+			"nombre":"",
+			"resumen":"",
+			"bio_pro":"",
+			"bio_per":"",
+			"metodologia":""
+		}],
+	"musica":[
+		{ 
+			"cod":"",
+			"nombre": "",
+			"descripcion":"",
+			"modalidad": ""
+		}],
+	"clases":[
+		{ 
+			"cod":"",
+			"nombre": "",
+			"descripcion":"",
+			"modalidad": ""
+		}],
+	"servicios":[
+		{ 
+			"cod":"",
+			"nombre": "",
+			"descripcion":"",
+			"modalidad": ""
+		}]
+}
