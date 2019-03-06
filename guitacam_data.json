@@ -106,37 +106,108 @@
 		},
 		{ 
 			"cod":"M8",
-			"nombre": "Percusión",
-			"descripcion":"Aprende a acompañar con Bongoes, Cajón Flamenco, Cajón Peruano, Maracas, Congas, y mucho más…",
+			"nombre": "Batería",
+			"descripcion":"Nunca puede faltar el acompañamiento de los tambores y platillos bien acoplados rítmicamente. Atrévete, saca esas baquetas, aprende, ritmo, secuencias y mucho más…",
 			"modalidad": "Individual"
 		},
-
 	],
 	"clases":[
 		{ 
 			"cod":"C1",
-			"nombre": "",
-			"descripcion":"",
-			"modalidad": ""
+			"nombre": "Ballet",
+			"descripcion":"Baila con la gracia y la técnica que tiene el ballet, mientras desarrollas flexibilidad, fuerza, coordinación, equilibrio, buena postura y mucho más…",
+			"modalidad": "Grupal"
 		},
 		{ 
-			"cod":"",
-			"nombre": "",
-			"descripcion":"",
-			"modalidad": ""
+			"cod":"C2",
+			"nombre": "Danza",
+			"descripcion":"Bajo la compañía de  diferentes tipos de música, exprésate con todo el cuerpo, plasmando con la danza tus  sentimientos, creatividad,  personalidad y mucho más…",
+			"modalidad": "Grupal"
 		},
 		{ 
-			"cod":"",
-			"nombre": "",
-			"descripcion":"",
-			"modalidad": ""
+			"cod":"C3",
+			"nombre": "Teatro",
+			"descripcion":"La maravilla de ser otro, de vivir su psiquis y aprender todos los tipos de personajes que podemos llegar a ser, quitarnos las máscaras y ponérnosla. Vive todo esto y mucho más…",
+			"modalidad": "Grupal"
+		},
+		{ 
+			"cod":"C4",
+			"nombre": "Coro",
+			"descripcion":"Aprende a cantar y pulir tú técnica con la maravillosa oportunidad de pertenecer a un equipo de artistas, cantando, experimentando experiencias y mucho más…",
+			"modalidad": "Grupal"
+		},
+		{ 
+			"cod":"C5",
+			"nombre": "Orquesta de guitarras",
+			"descripcion":"Te gusta tocar la guitarra, mejorar en tus técnicas, tocar en conjunto con otros guitarristas, acompañar, trabajar en equipo. Esta es tu oportunidad para aprender y mucho más…",
+			"modalidad": "Grupal"
+		},
+		{ 
+			"cod":"C6",
+			"nombre": "Estimulación Temprana",
+			"descripcion":"Bríndale la oportunidad a tu hijo de conocer, experimentar y explorar con la música, los instrumentos, ritmos, sonidos y mucho más…",
+			"modalidad": "Individual"
+		},
+		{ 
+			"cod":"C7",
+			"nombre": "Inglés Personalizado",
+			"descripcion":"Aprende a conversar en inglés, pulir tu pronunciación, mejorar tu comprensión. Abre las puertas de todas las oportunidades con nuestras clases personalizadas y mucho más…",
+			"modalidad": "Individual / Grupal"
+		},
+		{ 
+			"cod":"C8",
+			"nombre": "Escritura Creativa",
+			"descripcion":"Esta es tu oportunidad plasmar tu imaginación con palabras en un papel. Aventúrate a escribir, comunicar, volar tu creatividad y mucho más…",
+			"modalidad": "Individual / Grupal"
+		},
+		{ 
+			"cod":"C9",
+			"nombre": "Dibujo",
+			"descripcion":"Crea con trazos y líneas las maravillas de tus pensamientos, aprende todas las técnicas, dibuja y crea personajes, lleva el dibujo hasta donde tus sueños te lleven y mucho más…",
+			"modalidad": "Individual / Grupal"
+		},
+				{ 
+			"cod":"C10",
+			"nombre": "Fotografía",
+			"descripcion":"Cuenta la frase: una imagen dice más que mil palabras. Aprende de este maravilloso arte y abre un mundo de posibilidades con tu cámara y mucho más…",
+			"modalidad": "Individual / Grupal"
 		}
 	],
 	"servicios":[
 		{ 
-			"cod":"",
-			"nombre": "",
+			"cod":"S1",
+			"nombre": "Eventos en vivo",
+			"descripcion":"Necesitas música en vivo con tu música favorita con un alto nivel de calidad y detalle, con músicos profesionales y listos para poder hacer de tu evento algo memorable. Esta es tu oportunidad.",
+		},
+		{ 
+			"cod":"S2",
+			"nombre": "Alquiler de sonido para eventos pequeños",
+			"descripcion":"Alquiler de Mixer / Micrófonos / Pedestales",
+		},
+		{ 
+			"cod":"S3",
+			"nombre": "Producción de artistas para Bares / Teatros / Recitales",
+			"descripcion":"Plataforma de contacto y servicio",
+		},
+		{ 
+			"cod":"S4",
+			"nombre": "Alquiler de espacios para clases",
+			"descripcion":"Modalidad Individual / Modalidad grupos pequeños / Modalidad talleres / Sala de ensayos / Vocal Booth / Salón para Danza - Ballet - Teatro / 4 aulas distintas para clases",
+		},
+		{ 
+			"cod":"S5",
+			"nombre": "Estudio de grabacion",
 			"descripcion":"",
-			"modalidad": ""
-		}]
+		},
+		{ 
+			"cod":"S6",
+			"nombre": "Servicio técnico",
+			"descripcion":"Reparación de equipo de audio/ Calibración y mantenimiento de Guitarras/Bajos. Trabajo de Pintura y laqueado.",
+		},
+		{ 
+			"cod":"S7",
+			"nombre": "Tutoriales / Covers / Youtube",
+			"descripcion":"Se brinda asesoria e infraestructura para creación de covers, tutoriales y contenido multimedia para redes sociales y Youtube. Ademas se brinda ",
+		}
+	]
 }
