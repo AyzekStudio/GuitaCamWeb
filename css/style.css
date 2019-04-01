@@ -68,7 +68,7 @@ label {
 /*--header end here--*/
 
 .banner {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(../images/guitacam_banner.jpg)no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -701,7 +701,7 @@ h3.white-title {
 }
 
 .title-img {
-    background: url(../images/services1.jpg)no-repeat center;
+    background: url(../images/guitarra_header.jpg)no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -ms-background-size: cover;
@@ -722,7 +722,7 @@ h3.white-title {
 }
 
 .white-img {
-    background: url(../images/divteam.jpg)no-repeat center;
+    background: url(../images/division_instrumentos.jpg)no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -ms-background-size: cover;
@@ -1739,7 +1739,7 @@ li.nbs-flexisel-item img {
 /*-- contact --*/
 
 .contact-sectn {
-    background: url(../images/contact.jpg) no-repeat;
+    background: url(../images/fondo_contacto.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
