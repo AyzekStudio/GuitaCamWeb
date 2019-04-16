@@ -1084,13 +1084,6 @@ li.nbs-flexisel-item img {
     position: relative;
 }
 
-.service-grids:nth-child(5),
-.service-grids:nth-child(6),
-.service-grids:nth-child(7) {
-    float: right;
-    padding-bottom: 0em !important;
-}
-
 .service-grids {
     text-align: center;
     padding: 0em 1.5em 3em;

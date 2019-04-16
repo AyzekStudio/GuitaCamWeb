@@ -99,33 +99,8 @@ function crearModalServiciosMusica(){
     templateDefined = $("#target_output_servicios_musica").data("template-chosen"),
 	template = $("#" + templateDefined + "_template").html();
 	
-	var musica = { "musica":[
-		{ 
-			"cod":"M1",
-			"nombre": "Guitarra Acústica",
-			"descripcion":"Disfruta de nuestras queridas clases de guitarra y alcanza tus sueños. Aprende a tocar tus canciones favoritas, ritmos, acordes, punteos, leer música y mucho más…",
-			"modalidad": "Individual / Grupal",
-			"imagen": "arr.png",
-			"alt": "alt1"
-		},
-		{ 
-			"cod":"M2",
-			"nombre": "Guitarra Eléctrica",
-			"descripcion":"Aprende de la mano de tus maestros los mejores solos, estilos musicales, manejo de escalas e improvisaciones, leer música, acompañar a tu banda y mucho más…",
-			"modalidad": "Individual / Grupal",
-			"imagen": "arr.png",
-			"alt": "alt2"
-		},
-		{ 
-			"cod":"M3",
-			"nombre": "Canto",
-			"descripcion":"Logra tus sueños de poder cantar tus canciones favoritas, aprende a  manejar tu respiración, mejorar tu postura, impostar tu voz, comunicar asertivamente y mucho más…",
-			"modalidad": "Individual / Grupal",
-			"imagen": "arr.png",
-			"alt": "alt3"
-		}
-	]};
+	console.log(guitacam_data);
 
-	var html = Mustache.to_html(template, musica);
+	var html = Mustache.to_html(template, guitacam_data);
 	$(targetContainer).html(html);
 }

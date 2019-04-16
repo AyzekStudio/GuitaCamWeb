@@ -1,4 +1,4 @@
-{
+var guitacam_data = {
 	"profesores":[
 		{
 			"cod":"P1",
@@ -61,7 +61,7 @@
 			"foto":"pfoto1.jpg"
 		}
 	],
-	"musica":[
+	"musica": [
 		{ 
 			"cod":"M1",
 			"nombre": "Guitarra Acústica",
