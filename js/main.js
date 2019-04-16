@@ -1,4 +1,3 @@
-var guitacam_data = "";
 jQuery(document).ready(function($){
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MqL = 1170;
@@ -92,21 +91,41 @@ jQuery(document).ready(function($){
 		}
 	}
 
-	guitacam_data = JSON.parse(guitacam_data);
-	console.log(guitacam_data); 
+	crearModalServiciosMusica();
 });
 
-function actualizarProfesor(codProfesor){
-	var profesor = jsObjects.filter(obj => {
-	  return obj.cod === codProfesor
-	})
-	console.log(codProfesor, profesor);
-	var nomProfesor = $("#nombreProfesor");
-	nomProfesor.html = profesor.nombre;
-	var resumenProfesor = $("#resumen");
-	resumenProfesor.html = profesor.resumen;
-	var bioProfesor = $("#bioProfesional");
-	bioProfesor.html = profesor.bio_pro; 
-	var fotoProfesor = $("#fotoProfesor");
-	fotoProfesor.attr("src", "images/" + profesor.photo);
+function crearModalServiciosMusica(){
+	var targetContainer = $("#target_output_servicios_musica"),
+    templateDefined = $("#target_output_servicios_musica").data("template-chosen"),
+	template = $("#" + templateDefined + "_template").html();
+	
+	var musica = { "musica":[
+		{ 
+			"cod":"M1",
+			"nombre": "Guitarra Acústica",
+			"descripcion":"Disfruta de nuestras queridas clases de guitarra y alcanza tus sueños. Aprende a tocar tus canciones favoritas, ritmos, acordes, punteos, leer música y mucho más…",
+			"modalidad": "Individual / Grupal",
+			"imagen": "arr.png",
+			"alt": "alt1"
+		},
+		{ 
+			"cod":"M2",
+			"nombre": "Guitarra Eléctrica",
+			"descripcion":"Aprende de la mano de tus maestros los mejores solos, estilos musicales, manejo de escalas e improvisaciones, leer música, acompañar a tu banda y mucho más…",
+			"modalidad": "Individual / Grupal",
+			"imagen": "arr.png",
+			"alt": "alt2"
+		},
+		{ 
+			"cod":"M3",
+			"nombre": "Canto",
+			"descripcion":"Logra tus sueños de poder cantar tus canciones favoritas, aprende a  manejar tu respiración, mejorar tu postura, impostar tu voz, comunicar asertivamente y mucho más…",
+			"modalidad": "Individual / Grupal",
+			"imagen": "arr.png",
+			"alt": "alt3"
+		}
+	]};
+
+	var html = Mustache.to_html(template, musica);
+	$(targetContainer).html(html);
 }

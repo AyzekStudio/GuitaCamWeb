@@ -24,8 +24,6 @@
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--//css-->
-	
-	<script type="text/javascript" src="guitacam_data.json"></script>
 </head>
 <!-- WhatsHelp.io widget -->
 <body>
@@ -312,39 +310,19 @@
 	<div class="services-music1">
 		<div class="container">
 			<div class="services-music1-musicbx">
-				<div class="col-md-3 service-grids">
+				<div id="target_output_servicios_musica" data-template-chosen="servicios_musica_guitacam"></div>
+				<!-- <div class="col-md-3 service-grids">
 					<a id="servicios.musica.gAcustica" data-toggle="modal" href="#modalMusicaGuitaCam">
 						<i class="fa fa-bookmark-o" aria-hidden="true"></i>
 						<h4>Guitarra Acústica</h4>
 					</a>
-				</div>
+				</div> -->
 				<img src="" class="img-responsive" alt="" />
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- modalMusicaGuitaCam -->
-	<div class="modal fade" id="modalMusicaGuitaCam" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 id="modal.servicios.titulo">Música</h4>
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/GuitaCamLogo.jpg" alt=" " class="img-responsive">
-						</div>
-						<div class="col-md-8">
-							<h5>Guitarra Acústica</h5>
-							<p>Disfruta de nuestras queridas clases de guitarra y alcanza tus sueños. Aprende a tocar tus canciones favoritas, ritmos, acordes, punteos, leer música y mucho más</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modalMusicaGuitaCam -->
+	
 	<div class="title-img" id="services">
 		<div class="container">
 			<h3 class="bold-title">Otras Clases</h3>
@@ -914,5 +892,118 @@
 	<!--search-bar-->
 	<script src="js/smtp.js"></script>
 	<!--//search-bar-->
+
+	<!--mustache-js-->
+	<script src="js/mustache.min.js"></script>
+	<!--//mustache-js-->
+	<!--modal templates-->
+	<script id="servicios_musica_guitacam_template" type="text/template">
+		<!-- modalMusicaGuitaCam -->
+		<!-- "cod", "nombre", "descripcion", "modalidad", "imagen", "alt" -->
+		{{#musica}}
+			<div class="col-md-3 service-grids">
+				<a id="servicios_musica_{{cod}}" data-toggle="modal" href="#modalMusicaGuitaCam_{{cod}}">
+					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+					<h4>{{nombre}}</h4>
+				</a>
+			</div>
+			<div class="modal fade" id="modalMusicaGuitaCam_{{cod}}" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 id="modal.musica.titulo">{{nombre}}</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="images/{{imagen}.jpg" alt="{{alt}}" class="img-responsive">
+								</div>
+								<div class="col-md-8">
+									<b>Modalidad:</b> {{modalidad}}
+									<p>{{descripcion}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{/musica}}
+		<!-- //modalMusicaGuitaCam -->
+	</script>
+	<script id="modalClasesGuitaCam" type="text/template">
+		<!-- modalClasesGuitaCam -->
+		{{#clases}}
+			<div class="modal fade" id="modalClasesGuitaCam_{{cod}}" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 id="modal.clases.titulo">{{nombre}}</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="images/{{imagen}.jpg" alt="{{alt}}" class="img-responsive">
+								</div>
+								<div class="col-md-8">
+									<b>Modalidad:</b> {{modalidad}}
+									<p>{{descripcion}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{/clases}}
+		<!-- //modalClasesGuitaCam -->
+	</script>
+	<script id="modalServiciosGuitaCam" type="text/template">
+		<!-- modalServiciosGuitaCam -->
+		{{#servicios}}
+			<div class="modal fade" id="modalServiciosGuitaCam_{{cod}}" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 id="modal.servicios.titulo">{{nombre}}</h4>
+							<div class="row">
+								<div class="col-md-12">
+									<p>{{descripcion}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{/servicios}}
+		<!-- //modalServiciosGuitaCam -->
+	</script>
+	<script id="modalProfesoresGuitaCam" type="text/template">
+		<!-- modalProfesoresGuitaCam -->
+		{{#profesores}}
+			<div class="modal fade" id="modalProfesoresGuitaCam_{{cod}}" tabindex="-1" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 id="modal.profesores.titulo">{{nombre}}</h4>
+							<div class="row">
+								<div class="col-md-4">
+									<img src="images/{{imagen}.jpg" alt="{{alt}}" class="img-responsive">
+								</div>
+								<div class="col-md-8">
+									<b>Modalidad:</b> {{modalidad}}
+									<p>{{descripcion}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{/profesores}}
+		<!-- //modalProfesoresGuitaCam -->
+	</script>
+	<!--//modal templates-->
 </body>
 </html>
