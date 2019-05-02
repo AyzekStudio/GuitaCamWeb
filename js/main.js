@@ -92,12 +92,30 @@ jQuery(document).ready(function($){
 	}
 
 	crearModalServiciosMusica();
+	crearModalServiciosClases();
+	// crearModalServicios();
+	crearModalProfesores();
 });
 
 function crearModalServiciosMusica(){
-	var targetContainer = $("#target_output_servicios_musica"),
-    templateDefined = $("#target_output_servicios_musica").data("template-chosen"),
-	template = $("#" + templateDefined + "_template").html();
+    crearServiciosDesdeTemplate($("#target_output_servicios_musica"));
+}
+
+function crearModalServiciosClases(){
+    crearServiciosDesdeTemplate($("#target_output_servicios_clases"));
+}
+
+function crearModalServicios(){
+    crearServiciosDesdeTemplate($("#target_output_servicios"));
+}
+
+function crearModalProfesores(){
+    crearServiciosDesdeTemplate($("#target_output_profesores"));
+}
+
+function crearServiciosDesdeTemplate(targetContainer){
+    var templateDefined = targetContainer.data("template-chosen");
+	var template = $("#" + templateDefined + "_template").html();
 	
 	console.log(guitacam_data);
 

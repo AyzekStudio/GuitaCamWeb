@@ -299,7 +299,7 @@
 	</div>
 	<!-- //modalHistoriaGuitaCam -->
 
-	<!--services -->
+	<!-- clases -->
 	<!-- title-with-image -->
 	<div class="title-img" id="services">
 		<div class="container">
@@ -323,6 +323,7 @@
 		</div>
 	</div>
 	
+	<!-- title-with-image -->
 	<div class="title-img" id="services">
 		<div class="container">
 			<h3 class="bold-title">Otras Clases</h3>
@@ -332,46 +333,23 @@
 	<div class="services-music1">
 		<div class="container">
 			<div class="services-music1-musicbx">
-				<div class="col-md-3 service-grids">
+				<div id="target_output_servicios_clases" data-template-chosen="servicios_clases_guitacam"></div>
+				<!-- <div class="col-md-3 service-grids">
 					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
 					<p class="paragraph">Vestibulum vitae eget augue.</p>
 					<h4>Corporate Events</h4>
-				</div>
+				</div> -->
 				<img src="" class="img-responsive" alt="" />
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- //services -->
-	<!-- modalClasesGuitaCam -->
-	<div class="modal fade" id="modalClasesGuitaCam" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 id="modal.servicios.titulo">Música</h4>
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/GuitaCamLogo.jpg" alt=" " class="img-responsive">
-						</div>
-						<div class="col-md-8">
-							<h5>Guitarra Acústica</h5>
-							<p>Disfruta de nuestras queridas clases de guitarra y alcanza tus sueños. Aprende a tocar tus canciones favoritas, ritmos, acordes, punteos, leer música y mucho más</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modalClasesGuitaCam -->
+	<!-- //clases -->
 
 	<!-- Servicios -->
 	<div class="events" id="events">
 		<div class="container">
-			<h3 class="musicbx-heading">Otros
-				<span>servicios</span>
-			</h3>
+			<h3 class="musicbx-heading">Otros <span>servicios</span></h3>
 			<div class="events-row">
 				<div class="col-md-4 events-grids">
 					<div class="thumbnail events-entertainmbox">
@@ -382,15 +360,15 @@
 									<a href="#" data-toggle="modal" data-target="#modalHistoriaGuitaCam">Alquiler de equipo</a>
 								</h4>
 								<div class="event-top">
-									<p>	
+									<p>
 								</div>
 								<p class="paragraph">Lorem Ipsum generators on the Internet tend to repeat as necessary</p>
 							</div>
 						</div>
 					</div>
 					<div class="thumbnail events-entertainmbox">
-					<img src="images/eventos_en_vivo.jpg" class="img-responsive" alt="">
-							<div class="social-icons events-icons right-mbox1-sectn fotentertain3">
+						<img src="images/eventos_en_vivo.jpg" class="img-responsive" alt="">
+						<div class="social-icons events-icons right-mbox1-sectn fotentertain3">
 							<div class="caption">
 								<h4>
 									<a href="#" data-toggle="modal" data-target="#modalHistoriaGuitaCam">Eventos en vivo</a>
@@ -402,9 +380,9 @@
 							</div>
 							<div class="event-bottom">
 								<ul>
-								<li></li>
-								<li></li>
-								<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
 								</ul>
 							</div>
 						</div>
@@ -497,28 +475,6 @@
 		</div>
 	</div>
 	<!-- //Servicios -->
-	<!-- modalServiciosGuitaCam -->
-	<div class="modal fade" id="modalServiciosGuitaCam" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 id="modal.servicios.titulo">Música</h4>
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/GuitaCamLogo.jpg" alt=" " class="img-responsive">
-						</div>
-						<div class="col-md-8">
-							<h5>Guitarra Acústica</h5>
-							<p>Disfruta de nuestras queridas clases de guitarra y alcanza tus sueños. Aprende a tocar tus canciones favoritas, ritmos, acordes, punteos, leer música y mucho más</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modalServiciosGuitaCam -->
 
 	<!-- team -->
 	<div class="team" id="team">
@@ -641,13 +597,12 @@
 	<!-- gallery -->
 	<div class="gallery" id="gallery">
 		<div class="container">
-				<h3 class="musicbx-heading">Galería
-			</h3>
-<iframe style="position: relative; top: 0; left: 0; width: 100%; height: 550px;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=162622294@N07&sort=0&by=user&theme=grid&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p>Compare quotes <a rel="nofollow" href="https://www.sellcompare.co.uk">at SellCompare</a> get cash for old tech</p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
-
+			<h3 class="musicbx-heading">Galería</h3>
+			<iframe style="position: relative; top: 0; left: 0; width: 100%; height: 550px;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=162622294@N07&sort=0&by=user&theme=grid&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p>Compare quotes <a rel="nofollow" href="https://www.sellcompare.co.uk">at SellCompare</a> get cash for old tech</p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
 		</div>
 	</div>
 	<!-- //gallery -->
+
 	<!-- testimonials -->
 	<div class="testimonials" id="testimonials">
 		<div class="container">
@@ -914,10 +869,10 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 id="modal.musica.titulo">{{nombre}}</h4>
+							<h4>{{nombre}}</h4>
 							<div class="row">
 								<div class="col-md-4">
-									<img src="images/{{imagen}.jpg" alt="{{alt}}" class="img-responsive">
+									<img src="images/{{imagen}" alt="{{alt}}" class="img-responsive">
 								</div>
 								<div class="col-md-8">
 									<b>Modalidad:</b> {{modalidad}}
@@ -931,23 +886,33 @@
 		{{/musica}}
 		<!-- //modalMusicaGuitaCam -->
 	</script>
-	<script id="modalClasesGuitaCam" type="text/template">
+	<script id="servicios_clases_guitacam_template" type="text/template">
 		<!-- modalClasesGuitaCam -->
 		{{#clases}}
+			<div class="col-md-3 service-grids">
+				<a id="servicios_clases_{{cod}}" data-toggle="modal" href="#modalClasesGuitaCam_{{cod}}">
+					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+					<h4>{{nombre}}</h4>
+				</a>
+			</div>
 			<div class="modal fade" id="modalClasesGuitaCam_{{cod}}" tabindex="-1" role="dialog">
 				<div class="modal-dialog">
 					<!-- Modal content-->
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 id="modal.clases.titulo">{{nombre}}</h4>
+							<h4>{{nombre}}</h4>
 							<div class="row">
-								<div class="col-md-4">
-									<img src="images/{{imagen}.jpg" alt="{{alt}}" class="img-responsive">
-								</div>
-								<div class="col-md-8">
+								<div class="col-md-12">
 									<b>Modalidad:</b> {{modalidad}}
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-8">
 									<p>{{descripcion}}</p>
+								</div>
+								<div class="col-md-4">
+									<img src="images/{{imagen}" alt="{{alt}}" class="img-responsive">
 								</div>
 							</div>
 						</div>
@@ -957,7 +922,7 @@
 		{{/clases}}
 		<!-- //modalClasesGuitaCam -->
 	</script>
-	<script id="modalServiciosGuitaCam" type="text/template">
+	<script id="servicios_guitacam_template" type="text/template">
 		<!-- modalServiciosGuitaCam -->
 		{{#servicios}}
 			<div class="modal fade" id="modalServiciosGuitaCam_{{cod}}" tabindex="-1" role="dialog">
@@ -966,7 +931,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 id="modal.servicios.titulo">{{nombre}}</h4>
+							<h4>{{nombre}}</h4>
 							<div class="row">
 								<div class="col-md-12">
 									<p>{{descripcion}}</p>
@@ -979,23 +944,41 @@
 		{{/servicios}}
 		<!-- //modalServiciosGuitaCam -->
 	</script>
-	<script id="modalProfesoresGuitaCam" type="text/template">
+	<script id="profesores_guitacam_template" type="text/template">
 		<!-- modalProfesoresGuitaCam -->
 		{{#profesores}}
+			<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
+				<div class="team-info">
+					<a id="profesores_{{cod}}" data-toggle="modal" href="#modalProfesoresGuitaCam_{{cod}}">
+						<!-- <img src="images/{{foto}" alt=""> -->
+						<img src="images/t1.jpg" alt="">
+						<div class="team-caption">
+							<h4>{{nombre}}</h4>
+							<p>{{especialidad}}</p>
+						</div>
+					</a>
+				</div>
+			</div>
 			<div class="modal fade" id="modalProfesoresGuitaCam_{{cod}}" tabindex="-1" role="dialog">
 				<div class="modal-dialog">
 					<!-- Modal content-->
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 id="modal.profesores.titulo">{{nombre}}</h4>
+							<h4>{{nombre}}</h4>
 							<div class="row">
 								<div class="col-md-4">
-									<img src="images/{{imagen}.jpg" alt="{{alt}}" class="img-responsive">
+									<!-- <img src="images/{{foto}" alt="{{alt}}" class="img-responsive"> -->
+									<img src="images/t1.jpg" class="img-responsive">
 								</div>
 								<div class="col-md-8">
-									<b>Modalidad:</b> {{modalidad}}
-									<p>{{descripcion}}</p>
+									<b>Especialidad:</b> {{especialidad}}
+									<p>{{resumen}}</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>{{bio_per}}</p>
 								</div>
 							</div>
 						</div>
