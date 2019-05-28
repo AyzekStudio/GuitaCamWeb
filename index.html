@@ -487,111 +487,11 @@
 		<!--// title-with-image -->
 		<div class="container">
 			<div class="music1-team-grids">
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P1')">
-						<div class="team-info">
-							<img src="images/t1.jpg" alt="">
-							<div class="team-caption">
-								<h4>Lidia Rodríguez Gómez</h4>
-								<p>Canto</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P2')">
-						<div class="team-info">
-							<img src="images/preview_profesor_luciano.jpg" alt="">
-							<div class="team-caption">
-								<h4>Luciano Solís Campos</h4>
-								<p>Canto</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P1')">
-						<div class="team-info">
-							<img src="images/preview_profesor_christopher.jpg" alt="">
-							<div class="team-caption">
-								<h4>Christopher Madrigal González</h4>
-								<p>Violin</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P1')">
-						<div class="team-info">
-							<img src="images/t1.jpg" alt="">
-							<div class="team-caption">
-								<h4></h4>
-								<p></p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P1')">
-						<div class="team-info">
-							<img src="images/t1.jpg" alt="">
-							<div class="team-caption">
-								<h4></h4>
-								<p></p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P1')">
-						<div class="team-info">
-							<img src="images/t1.jpg" alt="">
-							<div class="team-caption">
-								<h4></h4>
-								<p></p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
-					<a href="#" data-toggle="modal" data-target="#modalEquipo" onclick="actualizarProfesor('P1')">
-						<div class="team-info">
-							<img src="images/t1.jpg" alt="">
-							<div class="team-caption">
-								<h4></h4>
-								<p></p>
-							</div>
-						</div>
-					</a>
-				</div>
+				<div id="target_output_profesores" data-template-chosen="profesores_guitacam"></div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- modalEquipo -->
-	<div class="modal fade" id="modalEquipo" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h6 id="nombreProfesor">Lidia Rodríguez Gómez</h6>
-					<div class="row">
-						<div class="col-md-8">
-							<p id="resumen"></p>
-						</div>
-						<div class="col-md-4">
-							<img id="fotoProfesor" src="images/GuitaCamLogo.jpg" alt=" " class="img-responsive">
-						</div>
-					</div><br> 
-					<b>Biografía profesional</b>
-					<p id="bioProfesional"></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modalEquipo -->
 	<!-- //team -->
 
 	<!-- gallery -->
@@ -868,13 +768,13 @@
 					<!-- Modal content-->
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4>{{nombre}}</h4>
 							<div class="row">
 								<div class="col-md-4">
 									<img src="images/{{imagen}}" alt="{{alt}}" class="img-responsive">
 								</div>
 								<div class="col-md-8">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4>{{nombre}}</h4>
 									<b>Modalidad:</b> {{modalidad}}
 									<p>{{descripcion}}</p>
 								</div>
@@ -903,12 +803,8 @@
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4>{{nombre}}</h4>
 							<div class="row">
-								<div class="col-md-12">
+								<div class="col-md-6">
 									<b>Modalidad:</b> {{modalidad}}
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-8">
 									<p>{{descripcion}}</p>
 								</div>
 								<div class="col-md-4">
@@ -950,8 +846,7 @@
 			<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
 				<div class="team-info">
 					<a id="profesores_{{cod}}" data-toggle="modal" href="#modalProfesoresGuitaCam_{{cod}}">
-						<!-- <img src="images/{{foto}" alt=""> -->
-						<img src="images/t1.jpg" alt="">
+						<img src="images/{{foto_preview}}" alt="{{alt}}">
 						<div class="team-caption">
 							<h4>{{nombre}}</h4>
 							<p>{{especialidad}}</p>
@@ -968,17 +863,25 @@
 							<h4>{{nombre}}</h4>
 							<div class="row">
 								<div class="col-md-4">
-									<!-- <img src="images/{{foto}" alt="{{alt}}" class="img-responsive"> -->
-									<img src="images/t1.jpg" class="img-responsive">
+									<img src="images/{{foto}}" alt="{{alt}}" class="img-responsive">
 								</div>
 								<div class="col-md-8">
-									<b>Especialidad:</b> {{especialidad}}
-									<p>{{resumen}}</p>
+									<div class="row">
+										<div class="col-md-12">
+											<b>Especialidad:</b> {{especialidad}}
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<p>{{resumen}}</p>
+											<p>{{bio_per}}</p>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<p>{{bio_per}}</p>
+									<p>{{metodologia}}</p>
 								</div>
 							</div>
 						</div>

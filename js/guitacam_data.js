@@ -8,7 +8,8 @@ var guitacam_data = {
 			"bio_pro":"Estoy a pocos meses de graduarme de la carrera Música con énfasis en canto de la Universidad de Costa Rica. El canto me ha llevado a conocer distintos países como Nicaragua (donde canté el Réquiem de Mozart), México (donde participé del Festival de ópera San Luis Potosí) así como festivales en Noruega, Londres e Italia. A nivel nacional fui ganadora del concurso Recital de Honor en la UCR, 2015 y he cantado en diferentes funciones y elencos de la ópera La Cámbiale di Matrimonio.",
 			"bio_per":"Me encanta todo lo relacionado con la música, viajar, crecer profesionalmente, el baile, el teatro y el compartir con mis amigos.",
 			"metodologia":"Busco que cada persona conozca y valore el potencial de su voz que es única y trabajamos fuerte para llevar su proceso vocal a mayores niveles de dificultad y expresividad.",
-			"foto":"pfoto1.jpg"	,
+			"foto_preview":"profesores_placeholder_preview.jpg"	,
+			"foto":"profesores_placeholder_preview.jpg"	,
 			"alt": ""
 		},
 		{
@@ -19,6 +20,7 @@ var guitacam_data = {
 			"bio_pro":"Tenor, estudiante de la Universidad de Costa Rica, Solista para eventos, productor artístico y , en Ad Lumen y Lyric sesions, participación en el Taller de perfeccionamiento Lírico de la Compañía Lírica Nacional con la Maestro Guadalupe González, participación musical en diferentes agrupaciones profesionales como coros y cuartetos. Participación teatral con el grupo Uriche en el Centro Cultural de San Pablo, Heredia. Cantante invitado en la Gala Lírica 2016 de Avenida Acústica y el Hospital Cima en el teatro Eugene O’Neill, con cuarteto de cuerdas y pianista bajo la dirección del Maestro Juan Manuel Arana. Coordinador y apoyo logístico en el Concurso Centroamericano de Canto Lírico, participación en la producción de la Asociación Grupo Lírico de Panamá en la Opera Cavalleria Rusticana de Pietro Mascagni, bajo la dirección del Maestro Jose Luis Cajar en el 2017, clases con maestros nacionales e internacionales. Clases en del Concurso Centroamericano de Canto Lírico con el Maestro Massimo Petzzutti, y participación en el recital final de gala en La Casona de la Opera de Luigi Sansonetti. Escenas del Musical Catalán Mar i cel, en una exhibición en el museo de Jade 2018.",
 			"bio_per":"Amo vivir el arte, la música, el ballet, todas las artes escénicas. Más allá de la práctica de una disciplina artística, he vivido a flor de piel el poder que este posee para cambiarnos por completo y crecer.",
 			"metodologia":"Trabajo la técnica de manera corporal, kinestésica, tratando de lograr que el estudiante comprenda su lenguaje corporal para luego interpretarlo en música.",
+			"foto_preview":"profesor_luciano.jpg"	,
 			"foto":"profesor_luciano.jpg",
 			"alt": ""
 		},	
@@ -30,6 +32,7 @@ var guitacam_data = {
 			"bio_pro":"Empecé estudios en el instituto Nacional de la música a los 4 años de edad. Durante esta estadía en el programa del Método Suzuki hice giras internacionales a Panamá, Estados Unidos e Italia. Pasé a estudiar a la Escuela de Artes Musicales de la Universidad de Costa Rica donde actualmente me encuentro estudiando el bachillerato con énfasis en violín. Tengo 4 títulos que me acreditan cómo profesor del Método Suzuki.",
 			"bio_per":"Siempre he soñado con tocar otros instrumentos musicales, por ejemplo guitarra y piano. Leer un buen libro y escuchar música.",
 			"metodologia":"Mi trabajo se basa en el Método Suzuki el cuál es ideal para niños y también se adapta muy bien a personas adultas. Los estudiantes aprenden a través del juego conceptos básicos hasta llegar a altos niveles de complejidad.",
+			"foto_preview":"profesor_christopher_preview.jpg"	,
 			"foto":"profesor_christopher.jpg",
 			"alt": ""
 		},
@@ -41,6 +44,7 @@ var guitacam_data = {
 			"bio_pro":"Empecé mis estudios de piano en la academia Musicolor en San Carlos a la edad de 14 años. A los 18 años ingresé en la etapa básica de piano de la UCR. En diciembre del 2017 realicé el recital de conclusión de etapa básica. Actualmente curso el bachillerato en instrumento con énfasis en piano en la UCR.",
 			"bio_per":"Me considero un Nerd de la música. Vivo en una constante investigación artista que me lleva por todas las aristas que la música abarca. Me apasiona enseñanza. La lectura me apasiona como el arte animado.",
 			"metodologia":"En mi clase busco romper la barrera entre lo clásico y lo popular ya que todo es importante para el desarrollo de un músico integral.",
+			"foto_preview":"profesor_andres.jpg"	,
 			"foto":"profesor_andres.jpg",
 			"alt": ""
 		},
@@ -52,6 +56,7 @@ var guitacam_data = {
 			"bio_pro":"Inicio a mis 6 años de edad como bailarina de la Academia de Danza y Folclore Internacional Paulina Peralta, donde estuve en formación hasta mis 12 años. A partir de ahí tome la decisión de dedicarme específicamente a la Danza y el Ballet por medio de diversas academias nacionales. De este modo, una vez iniciada la etapa universitaria, logré una beca artística desde el grupo representativo de la UCR, donde pude seguir creciendo en el área del ballet y la danza. En este periodo participé en diferentes espectáculos, así como musicales y grupos independientes. De manera independiente estoy en constante entrenamiento y formación, con clases privadas con bailarines internacionales, así como talleres o capacitaciones nacionales.",
 			"bio_per":"Todo del arte me interesa, por ello actualmente practico violín, guitarra y piano, teniendo siempre claro que mi primer y gran amor será el baile. Sin embargo, más allá de esto, si tengo que quedarme quieta, me encanta leer, conversar con una grata compañía y pasar tiempo en familia.",
 			"metodologia":"Desde mi metodología se trabaja con un enfoque basado en la persona y no en el contenido, ya que lo más importante acá es visualizar la fortalezas y deseos de cada persona, y trabajar poco a poco las debilidades. El disfrute es el elemento principal para el aprendizaje del baile, siendo este una vía y no el fin.",
+			"foto_preview":"profesor_lorlly.jpg"	,
 			"foto":"profesor_lorlly.jpg",
 			"alt": ""
 		},
@@ -63,6 +68,7 @@ var guitacam_data = {
 			"bio_pro":"",
 			"bio_per":"",
 			"metodologia":"",
+			"foto_preview":"profesor_camilo.jpg"	,
 			"foto":"profesor_camilo.jpg",
 			"alt": ""
 		}

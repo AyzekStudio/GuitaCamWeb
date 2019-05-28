@@ -117,7 +117,7 @@ function crearServiciosDesdeTemplate(targetContainer){
     var templateDefined = targetContainer.data("template-chosen");
 	var template = $("#" + templateDefined + "_template").html();
 	
-	console.log(guitacam_data);
+	// console.log(guitacam_data);
 
 	var html = Mustache.to_html(template, guitacam_data);
 	$(targetContainer).html(html);

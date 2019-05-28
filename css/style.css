@@ -1131,9 +1131,11 @@ li.nbs-flexisel-item img {
 }
 
 .services-music1-musicbx img {
-    position: absolute;
-    width: 27em;
-    bottom: -0.1em;
+    /* position: absolute;
+    width: 27em; 
+    bottom: -0.1em; */
+    margin-top: auto;
+    margin-bottom: auto;
     left: 0em;
 }
 
@@ -1327,6 +1329,10 @@ li.nbs-flexisel-item img {
     padding: 5em 0;
 }
 
+.music1-team-grid {
+    padding-bottom: 15px;
+}
+
 .team-info {
     position: relative;
     overflow: hidden;
@@ -1438,11 +1444,6 @@ li.nbs-flexisel-item img {
 
 .team-info:hover:before {
     opacity: 1;
-}
-
-.music1-team-grid:nth-child(2),
-.music1-team-grid:nth-child(4) {
-    margin-top: 2em;
 }
 
 /*-- //team --*/
@@ -2468,9 +2469,6 @@ textarea:-ms-input-placeholder {
     }
     .music1-team-grid {
         width: 100%;
-    }
-    .music1-team-grid:nth-child(3) {
-        margin-top: 2em;
     }
     .gallery-grid {
         width: 49.5%;
