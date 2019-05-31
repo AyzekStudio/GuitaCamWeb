@@ -93,7 +93,7 @@ jQuery(document).ready(function($){
 
 	crearModalServiciosMusica();
 	crearModalServiciosClases();
-	// crearModalServicios();
+	crearModalServicios();
 	crearModalProfesores();
 });
 

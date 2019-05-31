@@ -1153,8 +1153,7 @@ li.nbs-flexisel-item img {
     width: 100%;
 }
 
-.events-grids:nth-child(2),
-.events-grids:nth-child(4) {
+.events-grids:nth-child(even) {
     padding-top: 5em !important;
 }
 
@@ -1313,7 +1312,7 @@ li.nbs-flexisel-item img {
     color: #fff;
 }
 
-.thumbnail.events-entertainmbox:nth-child(1) {
+.thumbnail.events-entertainmbox:nth-child(odd) {
     margin-bottom: 1.5em;
 }
 
@@ -2070,8 +2069,7 @@ textarea:-ms-input-placeholder {
     .banner-bottom-text h3 {
         font-size: 3.5em;
     }
-    .events-grids:nth-child(2),
-    .events-grids:nth-child(4) {
+    .events-grids:nth-child(even) {
         padding-top: 0em !important;
     }
     .social-icons.events-icons {
