@@ -937,6 +937,7 @@ p.paragraph {
     font-size: 15px;
     letter-spacing: 1.2px;
     color: #000;
+    text-align: justify;
 }
 
 /*--flexisel--*/
@@ -1057,6 +1058,10 @@ li.nbs-flexisel-item img {
     padding-top: 1em;
 }
 
+#histotext{
+    text-align: justify;
+}
+
 /*--//flexisel--*/
 
 .button-mbox-sectn a {
@@ -1065,14 +1070,14 @@ li.nbs-flexisel-item img {
     font-size: 15px;
     letter-spacing: 2px;
     padding: 0.6em 2em;
-    background: 00AEEF;
+    background: #00AEEF;
     color: #fff;
     margin-top: 1.2em;
 }
 
 .button-mbox-sectn a:hover {
     text-decoration: none;
-    background: #031322;
+    background: #8DC73D;
     color: #fff;
 }
 
