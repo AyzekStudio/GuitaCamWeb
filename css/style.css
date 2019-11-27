@@ -566,6 +566,16 @@ ul.nav.navbar-nav li a.active::before {
 
 /*-- //search --*/
 
+.blue_button {
+    padding: 13px 10px;
+    font-size: 12px;
+    color: #fff;
+    background: #00AEEF;
+    /* width: 49%; */
+    /* border: none; */
+    letter-spacing: 2px;
+}
+
 /*--social icons--*/
 
 .mbox1-sectn-social ul {
@@ -1137,7 +1147,7 @@ li.nbs-flexisel-item img {
 
 .services-music1-musicbx img {
     /* position: absolute;
-    width: 27em; 
+    width: 27em;
     bottom: -0.1em; */
     margin-top: auto;
     margin-bottom: auto;
@@ -1779,7 +1789,7 @@ li.nbs-flexisel-item img {
 .mboxinfo_mail_grid_right input[type="reset"],
 .mboxinfo_mail_grid_right button {
     /* outline: none; */
-    padding: 13px 0;
+    padding: 13px 10px;
     font-size: 12px;
     color: #fff;
     /* background: #00AEEF; */

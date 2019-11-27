@@ -445,7 +445,7 @@
 							</select>
 						<div class="clearfix"> </div>
 						</div> -->
-						<textarea name="message" id="mensaje" placeholder="Cuéntanos que quieres decirnos" value="test"></textarea>
+						<textarea name="message" id="mensaje" placeholder="Cuéntanos que quieres decirnos"></textarea>
 						<button onclick="javascritp:enviarMsjWA()"><i class="fa fa-whatsapp"></i> Enviar a WhastApp</button>
 						<button onclick="javascritp:enviarMsjFB()"><i class="fa fa-facebook-square"></i> O contáctanos por Messenger</button>
 						<!-- <input type="reset" value="Borrar"> -->
@@ -598,6 +598,9 @@
 									<p>{{descripcion}}</p>
 								</div>
 							</div>
+							<div class="row">
+								<div class="col-md-4 col-md-offset-8"><button class="blue_button" onclick="javascript:irContactenos('{{nombre}}', 'modalMusicaGuitaCam_{{cod}}')">Quiero matricular!</button></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -629,6 +632,9 @@
 								<div class="col-md-4">
 									<img src="images/{{imagen}}" alt="{{alt}}" class="img-responsive">
 								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 col-md-offset-8"><button class="blue_button" onclick="javascript:irContactenos('{{nombre}}', 'modalClasesGuitaCam_{{cod}}')">Quiero matricular!</button></div>
 							</div>
 						</div>
 					</div>

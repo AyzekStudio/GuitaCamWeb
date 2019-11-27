@@ -138,3 +138,10 @@ function enviarMsjContactenos(url){
 	alert("encodedURL: " + encodedURL);
 	window.open(encodedURL);
 }
+
+function irContactenos(clase, modal){
+	$("#mensaje").val("Estoy interesado en clases de " + clase);
+	$("#" + modal).modal('toggle');
+	document.getElementById("mensaje").scrollIntoView();
+	window.location.hash = '#contact';
+}
