@@ -1747,6 +1747,10 @@ li.nbs-flexisel-item img {
 }
 
 /*-- mail --*/
+.mboxinfo_mail_grid_right i {
+    padding: 5px;
+    margin: 0px;
+}
 
 .mboxinfo_mail_grid_right input[type="text"],
 .mboxinfo_mail_grid_right input[type="email"],
@@ -1772,13 +1776,15 @@ li.nbs-flexisel-item img {
 }
 
 .mboxinfo_mail_grid_right input[type="submit"],
-.mboxinfo_mail_grid_right input[type="reset"] {
-    outline: none;
+.mboxinfo_mail_grid_right input[type="reset"],
+.mboxinfo_mail_grid_right button {
+    /* outline: none; */
     padding: 13px 0;
     font-size: 12px;
     color: #fff;
-    background: #00AEEF;
-    width: 49%;
+    /* background: #00AEEF; */
+    /* width: 49%; */
+    background-color:transparent;
     border: none;
     letter-spacing: 2px;
     text-transform: uppercase;

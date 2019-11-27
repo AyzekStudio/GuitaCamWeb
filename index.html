@@ -429,7 +429,7 @@
 				<div class="col-md-7 mboxinfo_mail_grid_right">
 					<h3>Formulario de contacto</h3>
 					<form action="#" method="post">
-						<div class="col-md-6 col-sm-6 contact_left_grid">
+						<!-- <div class="col-md-6 col-sm-6 contact_left_grid">
 							<input type="text" name="Name" placeholder="Nombre" required="">
 							<input type="email" name="Email" placeholder="Correo Electrónico" required="">
 						</div>
@@ -443,11 +443,12 @@
   							<option value="Servicios">Servicios</option>
   							<option value="Otros">Otros</option>
 							</select>
-						</div>
 						<div class="clearfix"> </div>
-						<textarea name="Message" placeholder="Mensaje..." required=""></textarea>
-						<input type="submit" value="Enviar">
-						<input type="reset" value="Borrar">
+						</div> -->
+						<textarea name="message" id="mensaje" placeholder="Cuéntanos que quieres decirnos" value="test"></textarea>
+						<button onclick="javascritp:enviarMsjWA()"><i class="fa fa-whatsapp"></i> Enviar a WhastApp</button>
+						<button onclick="javascritp:enviarMsjFB()"><i class="fa fa-facebook-square"></i> O contáctanos por Messenger</button>
+						<!-- <input type="reset" value="Borrar"> -->
 					</form>
 				</div>
 				<div class="clearfix"> </div>

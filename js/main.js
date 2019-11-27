@@ -122,3 +122,19 @@ function crearServiciosDesdeTemplate(targetContainer){
 	var html = Mustache.to_html(template, guitacam_data);
 	$(targetContainer).html(html);
 }
+
+function enviarMsjWA(){
+	url = "https://wa.me/50688550407?text=";
+	enviarMsjContactenos(url);
+}
+function enviarMsjFB(){
+	// url = "http://m.me/GuitaCam";
+	url = "http://m.me/GuitaCam";
+	enviarMsjContactenos(url);
+}
+function enviarMsjContactenos(url){
+	var mensaje = $("#mensaje").val();
+	var encodedURL = url + encodeURI(mensaje);
+	alert("encodedURL: " + encodedURL);
+	window.open(encodedURL);
+}
