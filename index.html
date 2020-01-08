@@ -404,7 +404,7 @@
 						<div class="clearfix"></div>
 					</div>
 					<div class="mail-entertain">
-						<div class="col-md-2 col-sm-2 col-xs-2 contact-icon">
+						<div class="col-md-2 col-sm-2 col-xs-2 contact-icon", href="mailto:info@guitacam.com">
 							<span class="fa fa-envelope" aria-hidden="true"></span>
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-10 contact-text-mboxinfo">
@@ -576,12 +576,16 @@
 		<!-- modalMusicaGuitaCam -->
 		<!-- "cod", "nombre", "descripcion", "modalidad", "imagen", "alt" -->
 		{{#musica}}
-			<div class="col-md-3 service-grids">
+		<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
+			<div class="team-info">
 				<a id="servicios_musica_{{cod}}" data-toggle="modal" href="#modalMusicaGuitaCam_{{cod}}">
-					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
-					<h4>{{nombre}}</h4>
+					<img src="images/{{foto_preview}}" alt="{{alt}}">
+					<div class="team-caption">
+						<h4>{{nombre}}</h4>
+					</div>
 				</a>
 			</div>
+		</div>
 			<div class="modal fade" id="modalMusicaGuitaCam_{{cod}}" tabindex="-1" role="dialog">
 				<div class="modal-dialog">
 					<!-- Modal content-->
@@ -611,12 +615,16 @@
 	<script id="servicios_clases_guitacam_template" type="text/template">
 		<!-- modalClasesGuitaCam -->
 		{{#clases}}
-			<div class="col-md-3 service-grids">
+		<div class="col-md-3 col-sm-3 col-xs-6 music1-team-grid">
+			<div class="team-info">
 				<a id="servicios_clases_{{cod}}" data-toggle="modal" href="#modalClasesGuitaCam_{{cod}}">
-					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
-					<h4>{{nombre}}</h4>
+					<img src="images/{{foto_preview}}" alt="{{alt}}">
+					<div class="team-caption">
+						<h4>{{nombre}}</h4>
+					</div>
 				</a>
 			</div>
+		</div>
 			<div class="modal fade" id="modalClasesGuitaCam_{{cod}}" tabindex="-1" role="dialog">
 				<div class="modal-dialog">
 					<!-- Modal content-->

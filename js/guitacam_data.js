@@ -91,6 +91,7 @@ var guitacam_data = {
 			"nombre": "Guitarra Acústica",
 			"descripcion":"Disfruta de nuestras queridas clases de guitarra y alcanza tus sueños. Aprende a tocar tus canciones favoritas, ritmos, acordes, punteos, leer música y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/MC/clase_musica_guitarra.jpg",
 			"imagen": "curso_guitarra_acustica.jpg",
 			"alt": ""
 		},
@@ -99,6 +100,7 @@ var guitacam_data = {
 			"nombre": "Guitarra Eléctrica",
 			"descripcion":"Aprende de la mano de tus maestros los mejores solos, estilos musicales, manejo de escalas e improvisaciones, leer música, acompañar a tu banda y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/MC/clase_musica_electrica.jpg",
 			"imagen": "curso_guitarra_electrica.jpg",
 			"alt": ""
 		},
@@ -107,6 +109,7 @@ var guitacam_data = {
 			"nombre": "Canto",
 			"descripcion":"Logra tus sueños de poder cantar tus canciones favoritas, aprende a  manejar tu respiración, mejorar tu postura, impostar tu voz, comunicar asertivamente y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/MC/clase_musica_canto.jpg",
 			"imagen": "curso_canto.jpg",
 			"alt": ""
 		},
@@ -115,6 +118,7 @@ var guitacam_data = {
 			"nombre": "Ukelele",
 			"descripcion":"Dicen que en la simpleza está la belleza. Aprovecha y experimenta este maravilloso instrumento con tus canciones favoritas, solos bellísimos y mucho más…",
 			"modalidad": "Individual",
+			"foto_preview":"/MC/clase_musica_ukulele.jpg",
 			"imagen": "curso_ukelele.jpg",
 			"alt": ""
 		},
@@ -123,6 +127,7 @@ var guitacam_data = {
 			"nombre": "Bajo Eléctrico",
 			"descripcion":"El alma, el sostén y el corazón de las bandas. Ven y aprende los mejores riffs, armonías, acompañamientos, leer música, manejar cifrados y mucho más…",
 			"modalidad": "Individual",
+			"foto_preview":"/MC/clase_musica_bajo.jpg",
 			"imagen": "curso_bajo.jpg",
 			"alt": ""
 		},
@@ -131,6 +136,7 @@ var guitacam_data = {
 			"nombre": "Violín",
 			"descripcion":"Un instrumento hermoso, con un amplio repertorio y un timbre único. Si este es tu sueño atrévete y aprende a sacarle las mejores melodías y mucho más…",
 			"modalidad": "Individual",
+			"foto_preview":"/MC/clase_musica_violin.jpg",
 			"imagen": "curso_violin.jpg",
 			"alt": ""
 		},
@@ -139,6 +145,7 @@ var guitacam_data = {
 			"nombre": "Piano",
 			"descripcion":"La orquesta con teclas. Aventúrate en este maravilloso y polifacético instrumento, experimenta con su amplio repertorio, armonías, melodía y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/MC/clase_musica_piano.jpg",
 			"imagen": "curso_piano.jpg",
 			"alt": ""
 		},
@@ -147,6 +154,7 @@ var guitacam_data = {
 			"nombre": "Batería",
 			"descripcion":"Nunca puede faltar el acompañamiento de los tambores y platillos bien acoplados rítmicamente. Atrévete, saca esas baquetas, aprende, ritmo, secuencias y mucho más…",
 			"modalidad": "Individual",
+			"foto_preview":"/MC/clase_musica_bateria.jpg",
 			"imagen": "curso_bateria.jpg",
 			"alt": ""
 		}
@@ -157,6 +165,7 @@ var guitacam_data = {
 			"nombre": "Ballet",
 			"descripcion":"Baila con la gracia y la técnica que tiene el ballet, mientras desarrollas flexibilidad, fuerza, coordinación, equilibrio, buena postura y mucho más…",
 			"modalidad": "Grupal",
+			"foto_preview":"/OC/otras_clases_ballet.jpg",
 			"imagen": "clases_ballet.jpg",
 			"alt": ""
 		},
@@ -165,6 +174,7 @@ var guitacam_data = {
 			"nombre": "Danza",
 			"descripcion":"Bajo la compañía de  diferentes tipos de música, exprésate con todo el cuerpo, plasmando con la danza tus  sentimientos, creatividad,  personalidad y mucho más…",
 			"modalidad": "Grupal",
+			"foto_preview":"/OC/otras_clases_danza.jpg",
 			"imagen": "clases_danza.jpg",
 			"alt": ""
 		},
@@ -173,6 +183,7 @@ var guitacam_data = {
 			"nombre": "Teatro",
 			"descripcion":"La maravilla de ser otro, de vivir su psiquis y aprender todos los tipos de personajes que podemos llegar a ser, quitarnos las máscaras y ponérnosla. Vive todo esto y mucho más…",
 			"modalidad": "Grupal",
+			"foto_preview":"/OC/otras_clases_teatro.jpg",
 			"imagen": "clases_teatro.jpg",
 			"alt": ""
 		},
@@ -181,55 +192,62 @@ var guitacam_data = {
 			"nombre": "Coro",
 			"descripcion":"Aprende a cantar y pulir tú técnica con la maravillosa oportunidad de pertenecer a un equipo de artistas, cantando, experimentando experiencias y mucho más…",
 			"modalidad": "Grupal",
+			"foto_preview":"/OC/otras_clases_coro.jpg",
 			"imagen": "clases_coro.jpg",
 			"alt": ""
 		},
 		{ 
 			"cod":"C5",
-			"nombre": "Orquesta de guitarras",
-			"descripcion":"Te gusta tocar la guitarra, mejorar en tus técnicas, tocar en conjunto con otros guitarristas, acompañar, trabajar en equipo. Esta es tu oportunidad para aprender y mucho más…",
-			"modalidad": "Grupal",
-			"imagen": "clases_orquesta_guitarra.jpg",
-			"alt": ""
-		},
-		{ 
-			"cod":"C6",
-			"nombre": "Estimulación Temprana",
-			"descripcion":"Bríndale la oportunidad a tu hijo de conocer, experimentar y explorar con la música, los instrumentos, ritmos, sonidos y mucho más…",
-			"modalidad": "Individual",
-			"imagen": "clases_estimulacion_temprana.jpg",
-			"alt": ""
-		},
-		{ 
-			"cod":"C7",
 			"nombre": "Inglés Personalizado",
 			"descripcion":"Aprende a conversar en inglés, pulir tu pronunciación, mejorar tu comprensión. Abre las puertas de todas las oportunidades con nuestras clases personalizadas y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/OC/otras_clases_ingles.jpg",
 			"imagen": "clases_ingles.jpg",
 			"alt": ""
 		},
 		{ 
-			"cod":"C8",
+			"cod":"C6",
 			"nombre": "Escritura Creativa",
 			"descripcion":"Esta es tu oportunidad plasmar tu imaginación con palabras en un papel. Aventúrate a escribir, comunicar, volar tu creatividad y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/OC/otras_clases_escrituracreativa.jpg",
 			"imagen": "clases_escritura.jpg",
 			"alt": ""
 		},
 		{ 
-			"cod":"C9",
+			"cod":"C7",
 			"nombre": "Dibujo",
 			"descripcion":"Crea con trazos y líneas las maravillas de tus pensamientos, aprende todas las técnicas, dibuja y crea personajes, lleva el dibujo hasta donde tus sueños te lleven y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/OC/otras_clases_dibujo.jpg",
 			"imagen": "clases_dibujo.jpg",
 			"alt": ""
 		},
-				{ 
-			"cod":"C10",
+		{ 
+			"cod":"C8",
 			"nombre": "Fotografía",
 			"descripcion":"Cuenta la frase: una imagen dice más que mil palabras. Aprende de este maravilloso arte y abre un mundo de posibilidades con tu cámara y mucho más…",
 			"modalidad": "Individual / Grupal",
+			"foto_preview":"/OC/otras_clases_fotografia.jpg",
 			"imagen": "clases_fotografia.jpg",
+			"alt": ""
+		},
+		{ 
+			"cod":"C9",
+			"nombre": "Orquesta de guitarras",
+			"descripcion":"Te gusta tocar la guitarra, mejorar en tus técnicas, tocar en conjunto con otros guitarristas, acompañar, trabajar en equipo. Esta es tu oportunidad para aprender y mucho más…",
+			"modalidad": "Grupal",
+			"foto_preview":"/OC/otras_clases_orquestaguitarra.jpg",
+			"imagen": "clases_orquesta_guitarra.jpg",
+			"alt": ""
+		},
+		{ 
+			"cod":"10",
+			"nombre": "Estimulación Temprana",
+			"descripcion":"Bríndale la oportunidad a tu hijo de conocer, experimentar y explorar con la música, los instrumentos, ritmos, sonidos y mucho más…",
+			"modalidad": "Individual",
+			"foto_preview":"/OC/otras_clases_estimulaciontemprana.jpg",
+			"imagen": "clases_estimulacion_temprana.jpg",
 			"alt": ""
 		}
 	],
