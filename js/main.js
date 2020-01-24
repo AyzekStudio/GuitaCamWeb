@@ -128,20 +128,19 @@ function enviarMsjWA(){
 	enviarMsjContactenos(url);
 }
 function enviarMsjFB(){
-	// url = "http://m.me/GuitaCam";
 	url = "http://m.me/GuitaCam";
 	enviarMsjContactenos(url);
 }
 function enviarMsjContactenos(url){
 	var mensaje = $("#mensaje").val();
 	var encodedURL = url + encodeURI(mensaje);
-	alert("encodedURL: " + encodedURL);
 	window.open(encodedURL);
 }
 
 function irContactenos(clase, modal){
 	$("#mensaje").val("Estoy interesado en clases de " + clase);
 	$("#" + modal).modal('toggle');
-	document.getElementById("mensaje").scrollIntoView();
-	window.location.hash = '#contact';
+	document.getElementById('goToContactUs').click();
+
+ 
 }
