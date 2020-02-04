@@ -186,13 +186,13 @@ html[xmlns] .slides {
 }
 
 .flex-control-paging li a:hover {
-    background: #e00231;
-    background: #e00231;
+    background: #00AEEF;
+    background: #00AEEF;
 }
 
 .flex-control-paging li a.flex-active {
-    background: #e00231;
-    background: #e00231;
+    background: #00AEEF;
+    background: #00AEEF;
     cursor: default;
     width: 45px;
 }
